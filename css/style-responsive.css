@@ -34,7 +34,14 @@ h1 {
 
 .about-us .content{
   width:300px;
+
+
 }
+
+.about-us .content .title{
+  width: 100%;
+}
+
 
 .about-us hr,.portfolio .portfolio-margin hr, .contact hr {
   width:106px;
@@ -117,6 +124,19 @@ textarea{
 
 }
 
+.video{
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+embed{
+  width: 380px;
+  height: 475px;
+}
+
+
+
 
 
 /* iPad (portrait) */
@@ -160,7 +180,11 @@ h1 {
 }
 
 .about-us .content{
-  width:200px;
+  width:500px;
+}
+
+.about-us .content .title{
+  width:100%;
 }
 
 .about-us hr,.portfolio .portfolio-margin hr, .contact hr {
@@ -246,7 +270,16 @@ textarea{
 }
 
 
+.video{
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+embed{
+  width: 380px;
+  height: 475px;
+}
 
 
 
@@ -346,4 +379,16 @@ textarea{
 }
 
 
+}
+
+
+.video{
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+embed{
+  width: 380px;
+  height: 475px;
 }
